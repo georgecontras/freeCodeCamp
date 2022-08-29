@@ -1,6 +1,7 @@
 function checkCashRegister(price, cash, cid) {
     let fondosDisponibles = cid[0][1] + cid[1][1] + cid[2][1] + cid[3][1] + cid[4][1] + cid[5][1] + cid[6][1] + cid[7][1] + cid[8][1];
     
+    
     let dineroDevolver = cash - price;
     let hundred = cid[8][1];
     let twenty = cid[7][1];
